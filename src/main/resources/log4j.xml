@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration>
+    <appender class="org.apache.log4j.ConsoleAppender" name="consoleLog">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param value="%-d{yyyy-MM-dd HH:mm:ss} [%t][%c][%L]-[%p] %m%n" name="ConversionPattern"/>
+        </layout>
+    </appender>
+    <logger name="com.ailk.oci.ocnosql">
+        <level value="consoleLog"/>
+    </logger>
+    <root>
+        <level value="info"/>
+        <appender-ref ref="consoleLog"/>
+    </root>
+</log4j:configuration>
