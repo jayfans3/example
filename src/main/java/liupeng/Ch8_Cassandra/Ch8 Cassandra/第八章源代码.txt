@@ -1,0 +1,36 @@
+public static class CallCountMap extends Mapper<LongWritable, Text, Text, Text>{
+TTransport port = null;
+Client client = null;
+public void map(LongWritable key,Text value,Context context)
+throws IOException{
+String line = value.toString();
+int splitIndex = line.indexOf("-");
+if(splitIndex>1&&splitIndex<line.length()){
+String phoneNumber=line.substring(0,splitIndex);
+String recordTime = line.substring(splitIndex+1);
+ColumnParent cp = new ColumnParent();
+cp.column_family = "CallCount";
+Column c = new Column();
+c.name = ByteBuffer.wrap(
+UUIDGenerator.getInstance().generateTimeBasedUUID().toByteArray());
+c.timestamp = System.currentTimeMillis();
+c.value =ByteBuffer.wrap(recordTime.getBytes("utf-8"));
+try{
+LOG.info("insert data in Cassandra with ColumnFamily and Column");
+client.insert(ByteBuffer.wrap(phoneNumber.getBytes("utf-8")),cp
+, c,ConsistencyLevel.TWO);
+}catch(Exception e){
+e.printStackTrace();
+public void connection(Job conf){
+port = new TFastFramedTransport(
+new TSocket("hadoonn",9160));
+TProtocol protocol = new TBinaryProtocol(port);
+client = new Client(protocol);
+try{
+port.open();
+client.set_keyspace("Keyspace1");
+}catch(Exception e){
+LOG.debug(port+"opened failed");
+}
+}
+}

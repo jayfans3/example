@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/path/hadoopjar/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/path/hadoopjar/hadoop-common.jar"/>
+	<classpathentry kind="lib" path="D:/path/hadoopjar/hadoop-hdfs-0.21.0.jar"/>
+	<classpathentry kind="lib" path="D:/path/hadoopjar/hadoop-mapred-0.21.0.jar"/>
+	<classpathentry kind="lib" path="D:/path/hadoopjar/hadoop-mapred-tools-0.21.0.jar"/>
+	<classpathentry kind="lib" path="D:/path/hadoopjar/log4j-1.2.15.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

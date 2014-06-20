@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/Bssap
+END
+BssapConditionColumn.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/Bssap/BssapConditionColumn.java
+END
+BssapIndexCallingIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/Bssap/BssapIndexCallingIndex.java
+END
+BssapIndexCIDCalledIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/Bssap/BssapIndexCIDCalledIndex.java
+END
+BSSAPQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/Bssap/BSSAPQuery.java
+END
+BssapIndexCalledIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/Bssap/BssapIndexCalledIndex.java
+END
+BSSAPTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/Bssap/BSSAPTest.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CloudComputingClient
+END
+ClientTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CloudComputingClient/ClientTest.java
+END
+CloudComputingClientBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CloudComputingClient/CloudComputingClientBase.java
+END
+FindAllClientIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CloudComputingClient/FindAllClientIP.java
+END
+CloudComputingClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CloudComputingClient/CloudComputingClient.java
+END
+TestDoWithQuestThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CloudComputingClient/TestDoWithQuestThread.java
+END

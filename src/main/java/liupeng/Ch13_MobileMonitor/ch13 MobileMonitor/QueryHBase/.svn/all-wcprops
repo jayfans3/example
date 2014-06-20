@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase
+END
+QueryBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/QueryBase.java
+END
+CDRPosComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/CDRPosComparator.java
+END
+ReadRecordFromTheHDFS.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/ReadRecordFromTheHDFS.java
+END
+HBaseIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/HBaseIndex.java
+END
+CDRPosInFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/CDRPosInFile.java
+END
+CallThreadAcessHdfs.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/CallThreadAcessHdfs.java
+END
+WriteDataToLocalFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/QueryHBase/WriteDataToLocalFile.java
+END

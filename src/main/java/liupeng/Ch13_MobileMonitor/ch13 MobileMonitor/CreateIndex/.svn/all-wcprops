@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cstor/!svn/ver/35/trunk/CloudComputingByZk/src/CreateIndex
+END
+CreateHDFSIndexImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CreateIndex/CreateHDFSIndexImp.java
+END
+CreateHDFSIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CreateIndex/CreateHDFSIndex.java
+END
+generateIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/cstor/!svn/ver/35/trunk/CloudComputingByZk/src/CreateIndex/generateIndex.java
+END
+ReadFromHDFSSever.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CreateIndex/ReadFromHDFSSever.java
+END
+RepairThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CreateIndex/RepairThread.java
+END
+ReadFromHDFSClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/CreateIndex/ReadFromHDFSClient.java
+END

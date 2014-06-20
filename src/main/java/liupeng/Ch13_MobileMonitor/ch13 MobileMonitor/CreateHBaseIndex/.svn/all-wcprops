@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/CreateHBaseIndex
+END
+IUCSRequestParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/CreateHBaseIndex/IUCSRequestParse.java
+END
+ParseDataIntoHBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/CreateHBaseIndex/ParseDataIntoHBase.java
+END
+BICCRequestParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/CreateHBaseIndex/BICCRequestParse.java
+END
+BSSAPRequestParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/CreateHBaseIndex/BSSAPRequestParse.java
+END
+RequestParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cstor/!svn/ver/21/trunk/CloudComputingByZk/src/HBaseIndexAndQuery/CreateHBaseIndex/RequestParse.java
+END
