@@ -77,5 +77,6 @@
 	<modules>
 		<module>liupeng</module>
 		<module>jmx</module>
-	</modules>
+		<module>javaee7-samples</module>
+		</modules>
 </project>
