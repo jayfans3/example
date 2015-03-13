@@ -1,0 +1,40 @@
+@startuml
+title : slider service
+
+scale 800 width
+scale 600 height
+abstract class AMRMClientAsync extends AbstractService
+AMRMClientAsyncImpl.|>AMRMClientAsync
+
+abstract class AbstractSliderLaunchedService
+class SliderAppMaster extends  AbstractSliderLaunchedService{
+..
+serviceInit
+// add service WorkflowExecutorService--AmExecutor
+..
+serviceStart
+// executorService.execute(actionQueues)
+..
+runservice
+//providerService run
+//sliderAMProvider
+//yarnRPC
+//AMRMClientAsync add service
+//NMClientAsyncImpl add servcie
+//startRegistrationService
+//startAgentWebApp
+//WebAppService
+//RoleLaunchService
+//review launchProviderService
+--
+}
+ SliderAppMaster .|> interface AMRMClientAsync.CallbackHandler
+ SliderAppMaster .|> interface NMClientAsync.CallbackHandler
+
+ SliderAppMaster .|>  interface  RunService
+ SliderAppMaster .|>   interface SliderClusterProtocol
+ SliderAppMaster .|>  interface  ServiceStateChangeListener
+
+
+
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+title : protocol 是rpc进行通信的协议，存在着继承关系的协议让两者有了通信的可能，定义规范让他们可以talk。
+
+scale 600 width
+scale 300 height
+abstract class AMRMClientAsync extends AbstractService
+AMRMClientAsyncImpl.|>AMRMClientAsync
+
+abstract class AbstractSliderLaunchedService
+class SliderAppMaster extends  AbstractSliderLaunchedService{
+..
+a
+--
+}
+bug
+ SliderAppMaster .|> interface NMCl.CallbackHandler
+ SliderAppMaster .|> interface NMClientAsyncd.CallbackHandler
+
+ SliderAppMaster .|>  interface  RunService
+ SliderAppMaster .|>   interface SliderClusterProtocol
+ SliderAppMaster .|>  interface  ServiceStateChangeListener
+
+
+
+@enduml

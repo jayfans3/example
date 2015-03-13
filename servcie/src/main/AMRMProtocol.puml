@@ -1,0 +1,22 @@
+@startuml
+title : protocol 是rpc进行通信的协议，存在着继承关系
+
+scale 600 width
+scale 300 height
+interface ApplicationClientProtocol
+interface ApplicationMasterProtocol
+ClientRMProtocols -|> ApplicationClientProtocol
+ClientRMProtocols -|> ResourceManagerAdministrationProtocol
+ClientRMProtocols -|> ApplicationMasterProtocol
+ApplicationClientProtocolPBClientImpl .|> ApplicationClientProtocol
+
+
+interface ClientRMProtocols
+class ClientRMProxy extends RMProxy
+ClientRMProxy.>ClientRMProtocols
+package org.apache.hadoop.yarn.server.resourcemanager{
+class ClientRMService extends AbstractService
+}
+abstract class AbstractService
+ClientRMService .|> ApplicationClientProtocol
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+package org.apache.slider.client <<Frame>>{
+     class SliderClient extends AbstractSliderLaunchedService
+     abstract class WebUITab
+     abstract class SparkUITab extends WebUITab
+
+
+}
+@enduml

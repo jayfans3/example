@@ -1,0 +1,17 @@
+@startuml
+title : slider service
+
+scale 800 width
+scale 600 height
+
+interface Service
+interface RunService extends Service
+
+class CompositeService extends AbstractService
+class WorkflowCompositeService extends CompositeService
+class LaunchedWorkflowCompositeService extends WorkflowCompositeService
+class LaunchedWorkflowCompositeService-|> RunService
+//?正确 但是加入其它的就报错
+abstract class AbstractService-|> Service
+
+@enduml

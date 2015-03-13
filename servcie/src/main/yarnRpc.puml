@@ -1,0 +1,49 @@
+@startuml
+title : RPC:获取ApplicationClientProtocol协议代理后调用接口，\n通过rpcserver调用服务端的协议实现代理得到数据并返回协议数据
+scale 800 width
+scale 600 height
+package org.apache.hadoop.yarn.client.api<<yarnRpc>>{
+
+class HadoopYarnProtoRPC extends YarnRPC
+ abstract class YarnRPC
+}
+
+
+
+class RMProxy<T>{
+..
+RMFailoverProxyProvider
+..
+RetryPolicy
+..
+RetryProxy
+--
+getProxy//用YarnRPC.conf.getproxy
+}
+RMProxy.>YarnRPC
+RMProxy<|-ClientRMProxy
+ClientRMProxy.>ClientRMProtocols
+ClientRMProxy<.YarnClientImpl
+interface ClientRMProtocols extends ApplicationClientProtocol
+ClientRMProtocols-|>ApplicationMasterProtocol
+ClientRMProtocols-|>ResourceManagerAdministrationProtocol
+
+
+abstract class AbstractService
+abstract class YarnClient extends AbstractService
+
+class YarnClientImpl extends  YarnClient{
+  serviceInit()初始化yarn周期参数
+  ..
+  rmClient
+  ..
+  serviceStart()
+  //ClientRMProxy.createRMProxy\n获得rmClient，\n启动historyservice
+  __
+  *proto操作各类接口()
+  --
+  其他
+}
+
+
+@enduml

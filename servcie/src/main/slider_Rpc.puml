@@ -1,0 +1,24 @@
+@startuml
+title : 不涉及slider服务，只是rpc服务调用相关
+package org.apache.slider.client<<slider>>{
+
+scale 800 width
+scale 600 height
+
+SliderClient.>SliderYarnClientImpl
+
+class SliderYarnClientImpl extends YarnClientImpl{
+ slider-api业务类
+ ..
+ 查看实例等等slider集群操作
+}
+
+
+class SliderClient extends AbstractSliderLaunchedService
+class SliderClient ..|> RunService
+SliderClient : sliderYarnClientImpl
+SliderClient : serviceInit()添加SliderYarnClientImpl服务
+SliderClient : AppMasterLauncher发送任务用
+}
+
+@enduml
