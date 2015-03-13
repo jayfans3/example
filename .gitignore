@@ -8,6 +8,9 @@
 .project
 .settings
 
+# IDEA #
+.IDEA
+.idea
 # mvn #
 target
 # Package Files #
